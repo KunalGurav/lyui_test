@@ -1,0 +1,639 @@
+<div class="w-100 h-100">
+  <!--  Top Nav Bar code starts here-->
+  <nav class="navbar navbar-expand-md navbar-light bg-light topBar">
+    <div class="container">
+      <a class="navbar-brand" href="#"><img src="../assets/images/svg/brand-logo.svg" class="brand-logo"/></a>
+      <!--      below items of nav bar will be shown only in desktop view-->
+      <!--      nav bar items start here-->
+      <div class="collapse navbar-collapse">
+        <ul class="navbar-nav ml-auto">
+          <li class="navbar-item">
+            <a class="nav-link">HOME</a>
+          </li>
+          <li class="navbar-item">
+            <a class="nav-link">ABOUT US</a>
+          </li>
+          <li class="navbar-item">
+            <a class="nav-link">SERVICES</a>
+          </li>
+          <li class="navbar-item">
+            <a class="nav-link">CONTACT US</a>
+          </li>
+        </ul>
+      </div>
+      <!--      nav bar item ends here-->
+      <!--      Below is the code of hamburger button-->
+      <button class="btn" type="button" (click)="openSidebar()">
+        <img src="../assets/images/svg/hamburger.svg" class="hamburger"/>
+      </button>
+      <!--      Hamburger button ends here-->
+    </div>
+  </nav>
+  <!--  Top Nav Bar Code ends here-->
+  <!--  Sidebar code starts here-->
+  <div class="sidebar" #sidebarElement>
+    <a class="close-btn" (click)="closeSidebar()"><i class="fa fa-times primary-color" aria-hidden="true"></i></a>
+    <div class="sidebar-content">
+      <!--      Below are background images of sidebar -->
+      <img src="../assets/images/svg/sidebar-dark-oraange-cloud.svg" class="sidebar-cloud"/>
+      <img src="../assets/images/svg/sidebar-light-orange-cloud.svg" class="sidebar-cloud"/>
+      <!--      Background images of sidebar ends here-->
+      <div class="container">
+        <!--        Below is the sidebar for desktop only-->
+        <div class="only-desktop">
+          <div class="row">
+            <div class="col-2"></div>
+            <div class="col-4 text-left">
+              <div class="mb-1">
+                <p class="title text-uppercase">Services</p>
+                <p style="font-size: 18px">Cloud Services</p>
+                <p style="font-size: 18px">Cyber Security</p>
+                <p style="font-size: 18px">Software testing</p>
+                <p style="font-size: 18px">Digital Solutions</p>
+                <p style="font-size: 18px">Analytics, Insight & Data</p>
+                <p style="font-size: 18px">Managed IT Services</p>
+              </div>
+              <div class="my-1">
+                <p class="title text-uppercase">Location</p>
+                <div class="row">
+                  <div class="col-6">
+                    <p class="text-muted">Need the office address here</p>
+                    <p>Australia</p>
+                  </div>
+                  <div class="col-6">
+                    <p class="text-muted">Need the office address here</p>
+                    <p>Australia</p>
+                  </div>
+                </div>
+              </div>
+              <div class="my-1">
+                <p class="title text-uppercase">Contact</p>
+                <p><i class="fa fa-phone text-muted pr-2" aria-hidden="true"></i>9898989898</p>
+                <p><i class="fa fa-envelope-o text-muted pr-2" aria-hidden="true"></i>email@synnfo.com</p>
+              </div>
+              <div class="my-1">
+                <p class="title text-uppercase text-muted">SOCIAL Media</p>
+                <i class="fa fa-instagram primary-color fa-2x" aria-hidden="true"></i>
+              </div>
+            </div>
+            <div class="col-2"></div>
+            <div class="col-4 text-left">
+              <p class="title text-uppercase">Menu</p>
+              <p class="sidebar-menu-item">Home</p>
+              <p class="sidebar-menu-item">About Us</p>
+              <p class="sidebar-menu-item">Services</p>
+              <p class="sidebar-menu-item">Process</p>
+              <p class="sidebar-menu-item">Partners</p>
+              <p class="sidebar-menu-item">Career</p>
+              <p class="sidebar-menu-item">Blogs</p>
+              <p class="sidebar-menu-item">Contact Us</p>
+            </div>
+          </div>
+        </div>
+        <!--        Sidebar for desktop ends here-->
+        <!--        Sidebar for mobile starts here-->
+        <div class="only-mobile">
+          <div class="row">
+            <div class="col-sm-12">
+              <p class="title text-uppercase">Menu</p>
+              <p class="sidebar-menu-item">Home</p>
+              <p class="sidebar-menu-item">About Us</p>
+              <p class="sidebar-menu-item">Services</p>
+              <p class="sidebar-menu-item">Process</p>
+              <p class="sidebar-menu-item">Partners</p>
+              <p class="sidebar-menu-item">Career</p>
+              <p class="sidebar-menu-item">Blogs</p>
+              <p class="sidebar-menu-item">Contact Us</p>
+            </div>
+          </div>
+        </div>
+        <!--        Sidebar for mobile ends here-->
+      </div>
+    </div>
+  </div>
+  <!--  main section code starts here-->
+  <div class="mainScreen">
+    <!--    background images of main screen starts here-->
+    <img src="../assets/images/svg/rocket-2.svg" aria-hidden="true" class="bg-rocket"/>
+    <img src="../assets/images/svg/orange-cloud.svg" aria-hidden="true" class="bg-cloud"/>
+    <img src="../assets/images/svg/cloud-3.svg" aria-hidden="true" class="bg-cloud"/>
+    <!--    background images of main screen ends here-->
+    <!--    content of main screen starts here-->
+    <section class="container h-100">
+      <div class="row h-100 align-items-center justify-content-center">
+        <div class="col-sm-12 col-md-6 col-lg-6">
+          <p class="tag-line">We engineer brilliant solutions</p>
+          <br>
+          <button class="btn btn-outline-lyui font-weight-bold d-block text-center">Let's Collaborate <i
+            class="fa fa-arrow-right px-3 primary-color" aria-hidden="true"></i></button>
+        </div>
+        <div class="col-sm-12 col-md-6 col-lg-6">
+          <p class="d-none">Rocket</p>
+        </div>
+      </div>
+    </section>
+    <!--    Content of main screen ends here-->
+  </div>
+  <!--  main section code ends here-->
+  <!--  who are we section starts here-->
+  <div class="gradient">
+    <section class="container h-100">
+      <div class="row h-100 align-items-center justify-content-center">
+        <!--        Cloud Expert image for Mobile Only-->
+        <div class="col-sm-12 col-md-6 col-lg-6 only-mobile">
+          <img src="../assets/images/svg/cloud-experts.svg" alt="Cloud experts" class="w-100"/>
+        </div>
+        <!--        Cloud Expert image for Mobile ends here-->
+        <div class="col-sm-12 col-md-6 col-lg-6">
+          <p class="text-uppercase title">who we are</p>
+          <p class="heading">We are Cloud Experts</p>
+          <p class="content">A team of cloud experts committed to provide exceptional tech solutions to complex
+            problems with our
+            expertise and favourite technology, with pleasure! </p>
+          <br>
+          <button class="btn btn-outline-lyui font-weight-bold">Know Us <i class="fa fa-arrow-right px-3"
+                                                                           aria-hidden="true"></i></button>
+        </div>
+        <!--        Cloud Expert image for Desktop only-->
+        <div class="col-sm-12 col-md-6 col-lg-6 only-desktop">
+          <img src="../assets/images/svg/cloud-experts.svg" alt="Cloud experts" class="w-100"/>
+        </div>
+        <!--        Cloud Expert Image for Desktop Only Ends here-->
+      </div>
+    </section>
+  </div>
+  <!--  who are we section ends here-->
+  <!--  Our services section starts here-->
+  <div class="bg-white">
+    <div class="container py-3">
+      <p class="title text-uppercase">our services</p>
+      <p class="heading">What can we do for you</p>
+      <p class="content">We strive to bring the highest quality solutions with a fresh perspective focused on emerging
+        technology</p>
+      <!--      Services Items for Desktop only starts here-->
+      <div class="only-desktop">
+        <div class="row">
+          <div class="col-sm-4">
+            <app-services-card
+              [imageSrc]="'../assets/images/svg/services-cloud-services.svg'"
+              [title]="'Cloud Services'"
+              [content]="'We solve complex problems with our favourite technology.'"
+            ></app-services-card>
+          </div>
+          <div class="col-sm-4">
+            <app-services-card
+              [imageSrc]="'../assets/images/svg/services-cyber-security.svg'"
+              [title]="'Cyber Security'"
+              [content]="'We solve complex problems with our favourite technology.'"
+            ></app-services-card>
+          </div>
+          <div class="col-sm-4">
+            <app-services-card
+              [imageSrc]="'../assets/images/svg/services-software-testing.svg'"
+              [title]="'Software Testing'"
+              [content]="'We solve complex problems with our favourite technology.'"
+            ></app-services-card>
+          </div>
+          <div class="col-sm-4">
+            <app-services-card
+              [imageSrc]="'../assets/images/svg/services-data-analytics.svg'"
+              [title]="'Data Analytics & Insights'"
+              [content]="'We solve complex problems with our favourite technology.'"
+            ></app-services-card>
+          </div>
+          <div class="col-sm-4">
+            <app-services-card
+              [imageSrc]="'../assets/images/svg/services-digital-solutions.svg'"
+              [title]="'Digital Solutions'"
+              [content]="'We solve complex problems with our favourite technology.'"
+            ></app-services-card>
+          </div>
+          <div class="col-sm-4">
+            <app-services-card
+              [imageSrc]="'../assets/images/svg/services-managed-it-solutions.svg'"
+              [title]="'Managed IT Solutions'"
+              [content]="'We solve complex problems with our favourite technology.'"
+            ></app-services-card>
+          </div>
+        </div>
+      </div>
+      <!--      Services Items for Desktop only ends here-->
+      <!--      Services Items for mobile only starts here-->
+      <div class="only-mobile">
+        <div class="horizontal-scroll-container">
+          <app-services-card
+            [imageSrc]="'../assets/images/svg/services-cloud-services.svg'"
+            [title]="'Cloud Services'"
+            [content]="'We solve complex problems with our favourite technology.'"
+          ></app-services-card>
+          <app-services-card
+            [imageSrc]="'../assets/images/svg/services-cyber-security.svg'"
+            [title]="'Cyber Security'"
+            [content]="'We solve complex problems with our favourite technology.'"
+          ></app-services-card>
+          <app-services-card
+            [imageSrc]="'../assets/images/svg/services-software-testing.svg'"
+            [title]="'Software Testing'"
+            [content]="'We solve complex problems with our favourite technology.'"
+          ></app-services-card>
+          <app-services-card
+            [imageSrc]="'../assets/images/svg/services-data-analytics.svg'"
+            [title]="'Data Analytics & Insights'"
+            [content]="'We solve complex problems with our favourite technology.'"
+          ></app-services-card>
+          <app-services-card
+            [imageSrc]="'../assets/images/svg/services-digital-solutions.svg'"
+            [title]="'Digital Solutions'"
+            [content]="'We solve complex problems with our favourite technology.'"
+          ></app-services-card>
+          <app-services-card
+            [imageSrc]="'../assets/images/svg/services-managed-it-solutions.svg'"
+            [title]="'Managed IT Solutions'"
+            [content]="'We solve complex problems with our favourite technology.'"
+          ></app-services-card>
+        </div>
+      </div>
+      <!--      Services Items for Mobile only ends here-->
+    </div>
+  </div>
+  <!--  Our services section ends here-->
+  <!--  Process section starts here-->
+  <div style="background-color: #fff5f1">
+    <div class="container">
+      <p class="title text-uppercase pt-3">process</p>
+      <p class="heading">We mind the process!</p>
+      <p class="content">We strive to bring the highest quality solutions with a fresh perspective focused on emerging
+        technology</p>
+      <!--      Process Steps for Mobile Only-->
+      <div class="only-mobile">
+        <ul class="list-unstyled m-0">
+          <li class="my-2">
+            <div class="row m-0">
+              <div class="col-3">
+                <img src="../assets/images/svg/process-req-gathering.svg" class="processImg">
+              </div>
+              <div class="col-9 align-self-center">
+                <p class="m-0 font-family-merriweather processText font-weight-bold">Requirement Gathering</p>
+                <p class="m-0 font-family-titillium-web processText">A growing part of our business is focused.</p>
+              </div>
+            </div>
+          </li>
+          <li class="my-2">
+            <div class="row m-0">
+              <div class="col-3">
+                <img src="../assets/images/svg/process-resource-selection.svg" class="processImg">
+              </div>
+              <div class="col-9 align-self-center">
+                <p class="m-0 font-family-merriweather processText font-weight-bold">Resource selection</p>
+                <p class="m-0 font-family-titillium-web processText">A growing part of our business is focused.</p>
+              </div>
+            </div>
+          </li>
+          <li class="my-2">
+            <div class="row m-0">
+              <div class="col-3">
+                <img src="../assets/images/svg/process-proposal.svg" class="processImg">
+              </div>
+              <div class="col-9 align-self-center">
+                <p class="m-0 font-family-merriweather processText font-weight-bold">Proposal</p>
+                <p class="m-0 font-family-titillium-web processText">A growing part of our business is focused.</p>
+              </div>
+            </div>
+          </li>
+          <li class="my-2">
+            <div class="row m-0">
+              <div class="col-3">
+                <img src="../assets/images/svg/process-contract.svg" class="processImg">
+              </div>
+              <div class="col-9 align-self-center">
+                <p class="m-0 font-family-merriweather processText font-weight-bold">Contract finalization</p>
+                <p class="m-0 font-family-titillium-web processText">A growing part of our business is focused.</p>
+              </div>
+            </div>
+          </li>
+          <li class="my-2">
+            <div class="row m-0">
+              <div class="col-3">
+                <img src="../assets/images/svg/process-ci.svg" class="processImg">
+              </div>
+              <div class="col-9 align-self-center">
+                <p class="m-0 font-family-merriweather processText font-weight-bold">Continous improvement</p>
+                <p class="m-0 font-family-titillium-web processText">A growing part of our business is focused.</p>
+              </div>
+            </div>
+          </li>
+          <li class="my-2">
+            <div class="row m-0">
+              <div class="col-3">
+                <img src="../assets/images/svg/process-execution.svg" class="processImg">
+              </div>
+              <div class="col-9 align-self-center">
+                <p class="m-0 font-family-merriweather processText font-weight-bold">Execution</p>
+                <p class="m-0 font-family-titillium-web processText">A growing part of our business is focused.</p>
+              </div>
+            </div>
+          </li>
+        </ul>
+      </div>
+      <!--      Process Steps for Mobile Only ends here-->
+      <!--      Process steps for desktop only starts here-->
+      <div class="only-desktop">
+        <div class="row m-0">
+          <div class="col-lg-4">
+            <div class="card bg-transparent border-0">
+              <img src="../assets/images/svg/process-req-gathering.svg" class="processImg"/>
+              <div class="card-body">
+                <p class="font-weight-bold font-family-merriweather processText text-center">Requirement Gathering</p>
+                <p class="font-family-titillium-web processText text-center">A growing part of our business is focused
+                  on emerging tech.</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4">
+            <div class="card bg-transparent border-0">
+              <img src="../assets/images/svg/process-resource-selection.svg" class="processImg"/>
+              <div class="card-body">
+                <p class="font-weight-bold font-family-merriweather processText text-center">Resource selection</p>
+                <p class="font-family-titillium-web processText text-center">A growing part of our business is focused
+                  on emerging tech.</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4">
+            <div class="card bg-transparent border-0">
+              <img src="../assets/images/svg/process-proposal.svg" class="processImg"/>
+              <div class="card-body">
+                <p class="font-weight-bold font-family-merriweather processText text-center">Proposal</p>
+                <p class="font-family-titillium-web processText text-center">A growing part of our business is focused
+                  on emerging tech.</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4">
+            <div class="card bg-transparent border-0">
+              <img src="../assets/images/svg/process-execution.svg" class="processImg"/>
+              <div class="card-body">
+                <p class="font-weight-bold font-family-merriweather processText text-center">Execution</p>
+                <p class="font-family-titillium-web processText text-center">A growing part of our business is focused
+                  on emerging tech.</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4">
+            <div class="card bg-transparent border-0">
+              <img src="../assets/images/svg/process-ci.svg" class="processImg"/>
+              <div class="card-body">
+                <p class="font-weight-bold font-family-merriweather processText text-center">Continous improvement</p>
+                <p class="font-family-titillium-web processText text-center">A growing part of our business is focused
+                  on emerging tech.</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4">
+            <div class="card bg-transparent border-0">
+              <img src="../assets/images/svg/process-contract.svg" class="processImg"/>
+              <div class="card-body">
+                <p class="font-weight-bold font-family-merriweather processText text-center">Contract finalization</p>
+                <p class="font-family-titillium-web processText text-center">A growing part of our business is focused
+                  on emerging tech.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!--      Process steps for desktop only starts here-->
+    </div>
+  </div>
+  <!--  Process section ends here-->
+  <!--  Engagement model section starts here-->
+  <div class="bg-white h-100">
+    <div class="container h-100">
+      <div class="row h-75 align-items-center justify-content-center">
+<!--        Model with image top only for mobile-->
+        <div class="col-sm-12 col-md-6 col-lg-6 only-mobile">
+          <img src="../assets/images/svg/moon.svg" style="width: 100%" *ngIf="accordionExpandedStepNumber === 1"/>
+          <img src="../assets/images/svg/quater_moon.svg" style="width: 100%"
+               *ngIf="accordionExpandedStepNumber === 2"/>
+          <img src="../assets/images/svg/half_moon.svg" style="width: 100%" *ngIf="accordionExpandedStepNumber === 3"/>
+        </div>
+<!--        Model with image top only for mobile ends here-->
+        <div class="col-sm-12 col-md-6 col-lg-6">
+          <div id="accordion">
+            <div
+              [class]="accordionExpandedStepNumber === 1 ?'card process-card process-card-border-left selected' : 'card process-card process-card-border-left'">
+              <div class="card-header bg-transparent border-0" id="modelHeading1">
+                <p class="title" *ngIf="accordionExpandedStepNumber===1">1 OF 3</p>
+                <button class="btn btn-link heading text-dark" (click)="toggleAccordion(1)">Full Time Model
+                </button>
+              </div>
+              <div id="modelBody1" [class]="accordionExpandedStepNumber === 1 ? 'collapse show' : 'collapse'"
+                   aria-labelledby="modelHeading1" data-parent="#accordion">
+                <div class="card-body">
+                  <div class="row">
+                    <div class="col-12">
+                      <p class="content">Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+                        Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
+                        Lorem Ipsum is simply dummy text of.</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div
+              [class]="accordionExpandedStepNumber === 2 ?'card process-card process-card-border-left selected' : 'card process-card process-card-border-left'">
+              <div class="card-header bg-transparent border-0" id="modelHeading2">
+                <p class="title" *ngIf="accordionExpandedStepNumber===2">2 OF 3</p>
+                <button class="btn btn-link heading text-dark" data-toggle="collapse" (click)="toggleAccordion(2)">Part
+                  Time Model
+                </button>
+              </div>
+              <div id="modelBody2" [class]="accordionExpandedStepNumber === 2 ? 'collapse show' : 'collapse'"
+                   aria-labelledby="modelHeading2" data-parent="#accordion">
+                <div class="card-body">
+                  <div class="row">
+                    <div class="col-12">
+                      <p class="content">Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+                        Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
+                        Lorem Ipsum is simply dummy text of.</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div
+              [class]="accordionExpandedStepNumber === 3 ?'card process-card process-card-border-left selected' : 'card process-card process-card-border-left'">
+              <div class="card-header bg-transparent border-0" id="modelHeading3">
+                <p class="title" *ngIf="accordionExpandedStepNumber === 3">3 OF 3</p>
+                <button class="btn btn-link heading text-dark" (click)="toggleAccordion(3)">Hybrid Model
+                </button>
+              </div>
+              <div id="modelBody3" [class]="accordionExpandedStepNumber === 3 ? 'collapse show' : 'collapse'"
+                   aria-labelledby="modelHeading3" data-parent="#accordion">
+                <div class="card-body">
+                  <div class="row">
+                    <div class="col-12">
+                      <p class="content">Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+                        Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
+                        Lorem Ipsum is simply dummy text of.</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+<!--        Model with Image Bottom only for Desktop starts here-->
+        <div class="col-sm-12 col-md-6 col-lg-6 only-desktop">
+          <img src="../assets/images/svg/moon.svg" style="width: 100%" *ngIf="accordionExpandedStepNumber === 1"/>
+          <img src="../assets/images/svg/quater_moon.svg" style="width: 100%"
+               *ngIf="accordionExpandedStepNumber === 2"/>
+          <img src="../assets/images/svg/half_moon.svg" style="width: 100%" *ngIf="accordionExpandedStepNumber === 3"/>
+        </div>
+<!--        Model with Image Bottom Only for desktop ends here-->
+      </div>
+    </div>
+  </div>
+  <!--  Engagement model section ends here-->
+  <!--  collaborate with us section starts here-->
+  <div class="h-100">
+    <div class="position-relative h-100 w-100" style="background-color: #fff5f1">
+<!--      Background image for Collaborate with us starts here-->
+      <img src="../assets/images/svg/mail-box-cloud.svg" class="bg-cloud"/>
+      <img src="../assets/images/svg/group-59.svg" class="mail-box-img"/>
+<!--      Background image for Collaborate with us ends here-->
+      <div class="container h-100">
+        <div class="row h-50 align-items-center justify-content-between">
+          <div class="col-sm-12 col-lg-6">
+            <p class="title">Collaborate with us</p>
+            <p class="heading">Have an idea? Share with Us</p>
+            <button class="btn btn-outline-dark font-family-merriweather">Contact Us <i class="fa fa-arrow-right pl-3"
+                                                                                        aria-hidden="true"></i></button>
+          </div>
+        </div>
+        <div class="row h-50 align-items-start justify-content-between">
+          <div class="col-sm-12 col-lg-6">
+            <p class="title">We are looking for talents</p>
+            <p class="heading">Do you have the same passion and love for technology like we do?</p>
+            <button class="btn btn-outline-dark font-family-merriweather">Join Us <i class="fa fa-arrow-right pl-3"
+                                                                                     aria-hidden="true"></i></button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!--  collaborate with us section ends here-->
+  <!--  footer section starts here-->
+  <footer class="footer">
+    <div class="container p-3">
+<!--      footer grid for Desktop only-->
+      <div class="only-desktop">
+        <div class="row">
+          <div class="col-sm-4 col-lg-4">
+            <p class="heading text-white">We engineer brilliant solutions</p>
+            <button class="btn btn-outline-lyui">Let's Collaborate <i class="fa fa-arrow-right pl-3"
+                                                                      aria-hidden="true"></i></button>
+            <br>
+            <br>
+            <p class="title">LOCATION</p>
+            <div class="row">
+              <div class="col-6">
+                <p class="text-white small">Need the office Address here</p>
+                <p class="text-white text-uppercase">Australia</p>
+              </div>
+              <div class="col-6">
+                <p class="text-white small">Need the office Address here</p>
+                <p class="text-white text-uppercase">Australia</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-8 col-lg-8">
+            <div class="row">
+              <div class="col-3"></div>
+              <div class="col-3">
+                <p class="title text-uppercase">LINKS</p>
+                <p class="text-white">Home</p>
+                <p class="text-white">About Us</p>
+                <p class="text-white">Services</p>
+                <p class="text-white">Process</p>
+                <p class="text-white">Partner</p>
+                <p class="text-white">Career</p>
+                <p class="text-white">Blogs</p>
+                <p class="text-white">Contact Us</p>
+              </div>
+              <div class="col-3">
+                <p class="title text-uppercase">Services</p>
+                <p class="text-white">Cloud Services</p>
+                <p class="text-white">Cyber Security</p>
+                <p class="text-white">Software testing</p>
+                <p class="text-white">Digital Solutions</p>
+                <p class="text-white">Analytics, Insight & Data</p>
+                <p class="text-white">Managed IT Services</p>
+              </div>
+              <div class="col-3">
+                <p class="title text-uppercase">SOCIAL MEDIA</p>
+                <div class="my-3">
+                  <i class="fa fa-instagram primary-color fa-2x" aria-hidden="true"></i>
+                </div>
+                <br>
+                <br>
+                <br>
+                <p class="title text-uppercase">Contact</p>
+                <p class="text-white"><i class="fa fa-phone primary-color pr-2" aria-hidden="true"></i>9898989898</p>
+                <p class="text-white"><i class="fa fa-envelope-o primary-color pr-2" aria-hidden="true"></i>email@synnfo.com
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+<!--      Footer grid for Desktop only ends here-->
+<!--      Footer grid for Mobile only starts here-->
+      <div class="only-mobile">
+        <div class="row">
+          <div class="col-sm-12">
+            <div class="row">
+              <div class="col-6">
+                <p class="title text-uppercase">LINKS</p>
+                <p class="text-white small">Home</p>
+                <p class="text-white small">About Us</p>
+                <p class="text-white small">Services</p>
+                <p class="text-white small">Process</p>
+                <p class="text-white small">Partner</p>
+                <p class="text-white small">Career</p>
+                <p class="text-white small">Blogs</p>
+                <p class="text-white small">Contact Us</p>
+                <p class="title text-uppercase">SOCIAL MEDIA</p>
+                <div class="my-3">
+                  <i class="fa fa-instagram primary-color fa-2x" aria-hidden="true"></i>
+                </div>
+              </div>
+              <div class="col-6">
+                <p class="title">LOCATION</p>
+                <p class="text-white small m-0 text-muted">Need the office Address here</p>
+                <p class="text-white text-uppercase small">Australia</p>
+                <p class="text-white small m-0 text-muted">Need the office Address here</p>
+                <p class="text-white text-uppercase small">Australia</p>
+                <p class="title text-uppercase">Services</p>
+                <p class="text-white small">Cloud Services</p>
+                <p class="text-white small">Cyber Security</p>
+                <p class="text-white small">Software testing</p>
+                <p class="text-white small">Digital Solutions</p>
+                <p class="text-white small">Analytics, Insight & Data</p>
+                <p class="text-white small">Managed IT Services</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-12 mt-3">
+            <p class="heading text-white text-center">We engineer brilliant solutions</p>
+            <button class="btn btn-outline-lyui d-block text-center">Let's Collaborate <i
+              class="fa fa-arrow-right pl-3" aria-hidden="true"></i></button>
+            <br>
+            <br>
+          </div>
+        </div>
+      </div>
+<!--      Footer grid for Mobile only Ends here-->
+    </div>
+  </footer>
+  <!--  footer section ends here-->
+</div>

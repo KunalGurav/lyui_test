@@ -1,0 +1,54 @@
+@font-face {
+  font-family: 'Merriweather';
+  src: url('./assets/fonts/Merriweather/Merriweather-Light.woff2') format('woff2'),
+  url('./assets/fonts/Merriweather/Merriweather-Light.woff') format('woff');
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Merriweather';
+  src: url('./assets/fonts/Merriweather/Merriweather-Regular.woff2') format('woff2'),
+  url('./assets/fonts/Merriweather/Merriweather-Regular.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Merriweather';
+  src: url('./assets/fonts/Merriweather/Merriweather-Bold.woff2') format('woff2'),
+  url('./assets/fonts/Merriweather/Merriweather-Bold.woff') format('woff');
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Titillium Web';
+  src: url('./assets/fonts/TitilliumWeb/TitilliumWeb-Bold.woff2') format('woff2'),
+  url('./assets/fonts/TitilliumWeb/TitilliumWeb-Bold.woff') format('woff');
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Titillium Web';
+  src: url('./assets/fonts/TitilliumWeb/TitilliumWeb-Regular.woff2') format('woff2'),
+  url('./assets/fonts/TitilliumWeb/TitilliumWeb-Regular.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Titillium Web';
+  src: url('./assets/fonts/TitilliumWeb/TitilliumWeb-Light.woff2') format('woff2'),
+  url('./assets/fonts/TitilliumWeb/TitilliumWeb-Light.woff') format('woff');
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+

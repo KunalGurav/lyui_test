@@ -1,0 +1,28 @@
+html, body { height: 100%; }
+body { margin: 0; font-family: "Titillium Web", Merriweather, "Helvetica Neue", sans-serif; }
+
+.cursor-pointer{
+  cursor: pointer;
+}
+
+.font-family-merriweather {
+  font-family: Merriweather !important;
+}
+
+.font-family-titillium-web {
+  font-family: "Titillium Web";
+}
+
+.btn {
+  border-width: 2px!important;
+}
+
+.btn-outline-lyui{
+  color: #fe5814;
+  border-color: #fe5814;
+}
+
+.btn-outline-lyui:hover{
+  background-color: #fe5814;
+  color: white;
+}

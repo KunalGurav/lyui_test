@@ -1,0 +1,63 @@
+.services-img {
+  margin-top:30px;
+  width:50%;
+  height:131px;
+  object-fit: contain;
+  margin-bottom: -10px;
+  z-index: 1020;
+}
+.zoom:hover {
+  z-index: 1060;
+  transition: transform 0.2s;
+  transform: scale(1.1);
+}
+
+.card {
+  min-width: 216px;
+}
+
+.services-card {
+  border-radius: 10px;
+  background-color: #fff5f1;
+}
+
+.title {
+  font-family: Merriweather;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.content {
+  font-family: "Titillium Web";
+  font-size: 18px;
+}
+
+.more {
+  font-family: "Titillium Web";
+  font-size: 18px;
+  color: #fe5814;
+}
+
+@media screen and (max-width: 425px){
+  .title {
+    font-size: 12px;
+  }
+
+  .content{
+    font-size: 12px;
+  }
+
+  .more {
+    font-size: 12px;
+  }
+
+  .services-img {
+    width:100%
+  }
+
+  .card {
+    margin-left: 16px;
+    margin-right:16px;
+  }
+
+}
